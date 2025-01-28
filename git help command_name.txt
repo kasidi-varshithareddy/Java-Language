@@ -1,0 +1,11 @@
+git help <command_name>
+the use of command is to knows details about the specific command
+$git help init
+$git help add
+=======================================================================
+$git config-global user.name"username"
+$git config-global user.email"your email id(githubs)
+========================================================================
+$git init
+the use of git init command is create a empty folder(repository) or re-initallize existing repostroy
+======================================================================================================

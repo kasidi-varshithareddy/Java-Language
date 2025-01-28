@@ -1,0 +1,71 @@
+import java.util.*;
+class Node
+{
+int data;
+Node next;
+Node(int x)
+{
+data=x;
+next=NULL;
+}
+}
+class Singlelist
+{
+Node head,tail;
+Singlelist()
+{
+head=tail=NULL;
+}
+void create int(x)
+{
+Node n=new Node(x);
+if(head==NULL)
+{
+head=tail=NULL;
+}
+else
+{
+tail.next=n;
+tail=n;
+}
+void display()
+{
+if(head==NULL)
+{
+System.out.println("List is empty");
+return;
+}
+Node temp=head;
+while(temp!=NULL)
+{
+System.out.println("data"+" ");
+temp=temp.next;
+}
+}
+class Linkedlist
+{
+Scanner s=new Scanner(System.in);
+Singlelist s1=new Slinglelist();
+for(;;)
+{
+System.out.println("1.create\n2.print\n3.exit\n");
+System.out.println("enter yout choice");
+int ch=s.nextInt();
+if(ch==1)
+{
+int x;
+System.out.println("enter the element");
+x=s.nextInt();
+s1.create(x);
+}
+else if(ch==2)
+{
+s1.dispaly()
+}
+else if(ch==3)
+break;
+else
+{
+System.out.println("Invalid choice");
+}
+
